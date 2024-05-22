@@ -25,3 +25,11 @@ const join = (req, res) => {
         }
     )
 };
+
+
+module.exports = {
+    join,
+    login,
+    passwordtResetRequest,
+    passwordReset
+};
