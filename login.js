@@ -48,3 +48,10 @@ const login = (req, res) => {
         }
     )
 }
+
+module.exports = {
+    join,
+    login,
+    passwordtResetRequest,
+    passwordReset
+};
